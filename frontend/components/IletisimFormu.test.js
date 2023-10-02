@@ -124,7 +124,6 @@ test('form gönderildiğinde girilen tüm değerler render ediliyor.', async () 
         expect(screen.getByTestId(/lastnameDisplay/i).textContent).toBe(`Soyad: ${passingData.surname}`);
         expect(screen.getByTestId(/emailDisplay/i).textContent).toBe(`Email: ${passingData.email}`);
         expect(screen.getByTestId(/messageDisplay/i).textContent).toBe(`Mesaj: ${passingData.message}`);
-        
     })
 });
 

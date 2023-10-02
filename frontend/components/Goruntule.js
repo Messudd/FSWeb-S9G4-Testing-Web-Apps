@@ -7,7 +7,7 @@ const Goruntule = (props) => {
         <h1>Gönderilen:</h1>
 
         { ad && <p data-testid="firstnameDisplay"><strong>Ad: </strong>{ad}</p> }
-        { soyad && <p data-testid="lastnameDisplay"> <strong>Soyad: </strong>{soyad}</p> }
+        { soyad && <p data-testid="lastnameDisplay"><strong>Soyad: </strong>{soyad}</p> }
         { email && <p data-testid="emailDisplay"><strong>Email: </strong>{email}</p> }
         { mesaj && <p data-testid="messageDisplay"><strong>Mesaj: </strong>{mesaj}</p> }
     </div>);
